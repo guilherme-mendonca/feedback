@@ -27,9 +27,27 @@ body {
 
 .card {
     background: var(--black-gradient);
+    text-align: center;
     max-width: 412px;
-    padding: 32px;
+    padding: 45px 32px;
     border-radius: 30px;
+}
+
+.card img {
+    margin-bottom: 32px;
+}
+
+.card .paragrafo_nota {
+    background-color: var(--dark-blue);
+    width: fit-content;
+    margin-inline: auto;
+    padding: 4px 18px;
+    border-radius: 22px;
+
+    font-size: 15px;
+    color: var(--orange);
+
+    margin-bottom: 32px;
 }
 
 .card h1 {
@@ -42,5 +60,4 @@ body {
     color: var(--light-grey);
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 24px;
 }
