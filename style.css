@@ -14,3 +14,35 @@
     --very-dark-blue: #131518;
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #322A34 0%, #181E27 100%);
 }
+
+body {
+    background-color: var(--very-dark-blue);
+    height: 100svh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: var(--black-gradient);
+    max-width: 412px;
+    padding: 32px;
+    border-radius: 30px;
+}
+
+.card h1 {
+    color: var(--white);
+}
+
+.card p {
+    color: var(--light-grey);
+}
+
+.estrela {
+    background-color: var(--dark-blue);
+    width: 48px;
+    height: 48px;
+
+    
+}
